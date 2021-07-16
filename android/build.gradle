@@ -9,6 +9,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.4'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21'
     }
 }
 
@@ -20,6 +21,7 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
